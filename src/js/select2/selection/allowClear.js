@@ -101,7 +101,7 @@ define([
 
     var $remove = $(
       '<span class="select2-selection__clear" title="' + removeAll() +'">' +
-        '&times;' +
+        '<i class="fa fa-times"></i>' +
       '</span>'
     );
     Utils.StoreData($remove[0], 'data', data);

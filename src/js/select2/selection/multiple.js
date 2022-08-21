@@ -71,7 +71,7 @@ define([
     var $container = $(
       '<li class="select2-selection__choice">' +
         '<span class="select2-selection__choice__remove" role="presentation">' +
-          '&times;' +
+          '<i class="fa fa-times"></i>' +
         '</span>' +
       '</li>'
     );
